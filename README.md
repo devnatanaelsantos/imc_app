@@ -5,7 +5,7 @@ Aplicação mobile desenvolvida em Flutter para calcular o Índice de Massa Corp
 
 ### Arquitetura adotada:
 - MVC
-### Gerencimento de estado utilizado:
+### Gerencimento de estado utilizad
 - ValueNotifier
 
 ### Layout
