@@ -19,9 +19,4 @@ Aplicação mobile desenvolvida em Flutter para calcular o Índice de Massa Corp
 ### Demonstração
 <img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/gif.gif" width=300 height='650'>
 
-### Autor
-Natanael dos Santos
-
-https://www.linkedin.com/in/devnatanaelsantos/
-
 
