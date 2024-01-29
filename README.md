@@ -3,7 +3,7 @@
 ## Resumo do projeto 
 Aplicativo desenvolvido em Flutter para calcular o Índice de Massa Corporal (IMC) e exibir a respectiva categoria com base nas informações de peso e altura fornecidas. 
 
-Implementei uma tratativa de erro utilizando try-catch para lidar com inserção de valores incorretos. Além disso, incluí uma validação para que o botão "Calcular IMC" só esteja disponível após o preenchimento dos campos peso e altura, utilizando o ValueNotifier e o ValueListenableBuilder.
+Implementei uma tratativa de erro utilizando try-catch para emitir um alerta sobre valores inseridos de maneira incorreta. Além disso, incluí uma validação para que o botão "Calcular IMC" só esteja disponível após o preenchimento dos campos peso e altura, utilizando o ValueNotifier e o ValueListenableBuilder.
 
 ### Arquitetura adotada:
 - MVC
