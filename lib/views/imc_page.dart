@@ -1,8 +1,8 @@
 import 'package:app_imc/controllers/imc_controller.dart';
 import 'package:app_imc/models/imc_model.dart';
-import 'package:app_imc/widgets/alert_item_imc.dart';
-import 'package:app_imc/widgets/alert_title_imc.dart';
-import 'package:app_imc/widgets/menssagem_imc.dart';
+import 'package:app_imc/widgets/imc_alert_item.dart';
+import 'package:app_imc/widgets/imc_alert_title.dart';
+import 'package:app_imc/widgets/imc_menssagem.dart';
 import 'package:flutter/material.dart';
 
 class ImcPage extends StatefulWidget {
@@ -104,6 +104,30 @@ class _ImcPageState extends State<ImcPage> {
             ),
             Row(
               children: [
+                Expanded(
+                  child: SizedBox(
+                    height: 50,
+                    child: ElevatedButton(
+                      onPressed: () {
+                        imcController.clearCampos();
+                      },
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(
+                            const Color(0xFF2ECC71)),
+                      ),
+                      child: const Text(
+                        'Limpar',
+                        style: TextStyle(
+                            color: Color(0xFF0F0F0F),
+                            fontSize: 18,
+                            fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  width: 8,
+                ),
                 Expanded(
                   child: SizedBox(
                     height: 50,

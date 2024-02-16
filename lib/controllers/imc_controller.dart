@@ -73,4 +73,9 @@ class ImcController {
     }
     return 'Obesidade grau III = (IMC acima de 40)';
   }
+
+  clearCampos() {
+    pesoController.clear();
+    alturaController.clear();
+  }
 }
