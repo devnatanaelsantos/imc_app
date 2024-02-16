@@ -29,10 +29,12 @@ class ImcController {
           double.parse(pesoController.value.text.replaceAll(',', '.'));
       double alturaImc =
           double.parse(alturaController.value.text.replaceAll(',', '.'));
-
-      double valorImc = pesoImc / (alturaImc * alturaImc);
-
-      return valorImc;
+      if (pesoImc <= 0 && alturaImc <= 0) {
+        return -999;
+      } else {
+        double valorImc = pesoImc / (alturaImc * alturaImc);
+        return valorImc;
+      }
     } catch (e) {
       return -999;
     }
@@ -41,7 +43,7 @@ class ImcController {
   ImcModel processarImc() {
     resultadoImc = double.tryParse(_calcularIMC().toStringAsFixed(2)) as double;
 
-    if (resultadoImc == -999) {
+    if (resultadoImc == -999 || resultadoImc == 0) {
       return ImcModel(peso: 0, altura: 0, mensagem: '');
     }
 
