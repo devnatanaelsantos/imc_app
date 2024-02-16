@@ -1,20 +1,28 @@
-<<<<<<< HEAD
-# app_imc
+# Calculadora IMC
+Aplicativo desenvolvido em Flutter para calcular o Índice de Massa Corporal (IMC) e exibir a respectiva categoria com base nas informações de peso e altura fornecidas. 
 
-"A new Flutter project."
+## Funcionalidades Implementadas
+Implementei uma tratativa de erro utilizando **try-catch** e o **AlertDialog** para emitir um alerta sobre valores inseridos de maneira incorreta. Além disso, incluí uma validação para que o botão "Calcular IMC" só esteja disponível após o preenchimento dos campos peso e altura, utilizando o **ValueNotifier** e o **ValueListenableBuilder**.
 
-## Getting Started
+### Gerencimento de estado utilizado
+- ValueNotifier
 
-This project is a starting point for a Flutter application.
+### Arquitetura adotada
+- MVC
 
-A few resources to get you started if this is your first Flutter project:
+### Como utilizar
+1. Insira o peso e altura nos campos fornecidos.
+2. Pressione o botão "Calcular IMC".
+3. Visualize o índice de massa corporal e a categoria correspondente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Demonstração
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/gif.gif" width=300 height='650'>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# app_imc
->>>>>>> 8425d8b591f9f58ece309fb2e4dc650c222ea23b
+### Layout
+
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/1.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/2.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/3.png" width=300 height='650'>
+</div>
+
