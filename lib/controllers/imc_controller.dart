@@ -29,7 +29,7 @@ class ImcController {
           double.parse(pesoController.value.text.replaceAll(',', '.'));
       double alturaImc =
           double.parse(alturaController.value.text.replaceAll(',', '.'));
-      if (pesoImc <= 0 && alturaImc <= 0) {
+      if (pesoImc <= 0 || alturaImc <= 0) {
         return -999;
       } else {
         double valorImc = pesoImc / (alturaImc * alturaImc);
