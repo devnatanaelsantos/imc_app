@@ -107,20 +107,29 @@ class _ImcPageState extends State<ImcPage> {
                 Expanded(
                   child: SizedBox(
                     height: 50,
-                    child: ElevatedButton(
-                      onPressed: () {
-                        imcController.clearCampos();
-                      },
-                      style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(
-                            const Color(0xFF2ECC71)),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(24),
+                        border: Border.all(
+                          color: const Color(0xFF2ECC71),
+                          width: 2,
+                        ),
                       ),
-                      child: const Text(
-                        'Limpar',
-                        style: TextStyle(
-                            color: Color(0xFF0F0F0F),
-                            fontSize: 18,
-                            fontWeight: FontWeight.w500),
+                      child: ElevatedButton(
+                        onPressed: () {
+                          imcController.clearCampos();
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              const Color(0xFF222222)),
+                        ),
+                        child: const Text(
+                          'Limpar',
+                          style: TextStyle(
+                              color: Color(0xFF2ECC71),
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500),
+                        ),
                       ),
                     ),
                   ),
