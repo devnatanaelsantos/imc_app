@@ -16,13 +16,13 @@ Implementei uma tratativa de erro utilizando **try-catch** e o **AlertDialog** p
 3. Visualize o índice de massa corporal e a categoria correspondente.
 
 ### Demonstração
-<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/gif.gif" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/gif.1.gif" width=300 height='650'>
 
 ### Layout
 
 <div style="display: flex; justify-content: space-between;">
-<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/1.png" width=300 height='650'>
-<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/2.png" width=300 height='650'>
-<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/3.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/1.1.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/2.1.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/assets/blob/main/app_imc/3.1.png" width=300 height='650'>
 </div>
 
